@@ -3,7 +3,7 @@ package com.plangrid.skeleton.presentation
 import com.plangrid.skeleton.domain.weather.WeatherInfo
 
 data class WeatherState(
-        val weatherInfo: WeatherInfo? = null,
-        val isLoading: Boolean = false,
-        val error: String? = null
+    val weatherInfo: WeatherInfo? = null,
+    val isLoading: Boolean = false,
+    val error: String? = null
 )

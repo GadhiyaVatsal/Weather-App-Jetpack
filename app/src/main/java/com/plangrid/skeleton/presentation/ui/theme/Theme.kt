@@ -6,8 +6,8 @@ import androidx.compose.runtime.Composable
 @Composable
 fun WeatherAppTheme(content: @Composable () -> Unit) {
     MaterialTheme(
-            typography = Typography,
-            shapes = Shapes,
-            content = content
+        typography = Typography,
+        shapes = Shapes,
+        content = content
     )
 }
